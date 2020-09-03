@@ -1,8 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: purple;
 }
 
 img {
     max-width: 200px;
+}
+.nav-bar{
+    background: rgb(170, 170, 170);
+    height: 5vh;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    padding: 1rem;
+}
+
+.nav-bar ul {
+    float: right;
+
+}
+
+.nav-bar h2 {
+    display: inline-block;
 }
